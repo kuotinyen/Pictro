@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Pictro</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <true/>
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- Photo Library Access -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Pictro 需要存取您的照片庫來幫助您整理照片。我們不會上傳或分享您的任何照片，所有處理都在您的裝置上進行。</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Pictro 需要存取您的照片庫來管理照片的組織狀態。</string>
+
+    <!-- Face ID / Touch ID -->
+    <key>NSFaceIDUsageDescription</key>
+    <string>使用 Face ID 來確認刪除照片操作，確保您的照片安全。</string>
+
+    <!-- Supported Localizations -->
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>zh-Hant</string>
+        <string>zh-Hans</string>
+    </array>
+
+    <!-- Minimum iOS Version -->
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+
+    <!-- App Category -->
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.photography</string>
+
+    <!-- Prevent iTunes file sharing -->
+    <key>UIFileSharingEnabled</key>
+    <false/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <false/>
+
+    <!-- Privacy oriented -->
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+
+    <!-- Performance optimizations -->
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+
+    <!-- Accessibility -->
+    <key>UIAccessibilityEnabled</key>
+    <true/>
+
+    <!-- Background modes (if needed for future features) -->
+    <!--
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>background-processing</string>
+    </array>
+    -->
+
+    <!-- Scene configuration -->
+    <key>UISceneDelegate</key>
+    <string>SceneDelegate</string>
+
+    <!-- Launch screen -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+
+    <!-- Prevent landscape on iPhone (optional) -->
+    <!--
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    -->
+
+    <!-- App Transport Security -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <!-- Only if you need network requests -->
+        </dict>
+    </dict>
+
+    <!-- URL Schemes (if needed) -->
+    <!--
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.pictro.url</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>pictro</string>
+            </array>
+        </dict>
+    </array>
+    -->
+</dict>
+</plist>
